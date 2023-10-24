@@ -15,3 +15,6 @@ Resolve-DnsName ZZZ.onmicrosoft.com -Type MX -Server 10.10.10.10
 Resolve-DnsName ZZZ.onmicrosoft.com -Type TXT -Server 1.1.1.1
 # Internal DNS Test
 Resolve-DnsName ZZZ.onmicrosoft.com -Type TXT -Server 10.10.10.10
+
+# Port Check
+Test-NetConnection -Port 25 -ComputerName LON-EX1.adatum.com
