@@ -5,3 +5,13 @@
 # POP     110/995   - TCP
 # DNS     53        - TCP/UDP
 # LDAP    50636     - TCP
+
+# External DNS Test
+Resolve-DnsName ZZZ.onmicrosoft.com -Type MX -Server 1.1.1.1
+# Internal DNS Test
+Resolve-DnsName ZZZ.onmicrosoft.com -Type MX -Server 10.10.10.10
+
+# External DNS Test
+Resolve-DnsName ZZZ.onmicrosoft.com -Type TXT -Server 1.1.1.1
+# Internal DNS Test
+Resolve-DnsName ZZZ.onmicrosoft.com -Type TXT -Server 10.10.10.10
