@@ -20,3 +20,8 @@ Install-Module @Parameters -Name 'AzureAD'
 Install-Module @Parameters -Name 'ExchangeOnlineManagement'
 Install-Module @Parameters -Name 'Microsoft.Online.SharePoint.PowerShell'
 Install-Module @Parameters -Name 'MicrosoftTeams'
+
+Install-Module @Parameters -Name 'MSAL.PS'
+
+
+
